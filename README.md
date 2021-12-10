@@ -1,4 +1,4 @@
-# tesla_app
+# travel_app_challenge
 
 A new Flutter project.
 

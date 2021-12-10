@@ -1,6 +1,6 @@
 {
-    "name": "tesla_app",
-    "short_name": "tesla_app",
+    "name": "travel_app_challenge",
+    "short_name": "travel_app_challenge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

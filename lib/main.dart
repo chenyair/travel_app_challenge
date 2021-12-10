@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:tesla_app/core/theme.dart';
+import 'package:tesla_app/feed/view/view.dart';
 
-import 'feed/feed.dart';
+import 'core/theme.dart';
 
 void main() {
-  runApp(const TravelApp());
+  runApp(const MyApp());
 }
 
-class TravelApp extends StatelessWidget {
-  const TravelApp({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
