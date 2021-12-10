@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tesla_app/feed/view/view.dart';
+import 'package:travel_app_challenge/feed/view/view.dart';
 
 import 'core/theme.dart';
 
