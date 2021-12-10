@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tesla_app/core/context_theme.dart';
-import 'package:tesla_app/models/models.dart';
+import 'package:travel_app_challenge/core/context_theme.dart';
+import 'package:travel_app_challenge/models/models.dart';
 
 class GradientStatusTag extends StatelessWidget {
   const GradientStatusTag({

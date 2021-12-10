@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tesla_app/feed/widgets/place_card.dart';
-import 'package:tesla_app/models/models.dart';
-import 'package:tesla_app/place_details/view/place_details_screen.dart';
-import 'package:tesla_app/widgets/travel_navigation_bar.dart';
+import 'package:travel_app_challenge/feed/widgets/widgets.dart';
+import 'package:travel_app_challenge/models/models.dart';
+import 'package:travel_app_challenge/place_details/view/view.dart';
+import 'package:travel_app_challenge/widgets/widgets.dart';
 
 class FeedScreen extends StatelessWidget {
   const FeedScreen({

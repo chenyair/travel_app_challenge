@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tesla_app/core/context_theme.dart';
-import 'package:tesla_app/feed/widgets/gradient_status_tag.dart';
-import 'package:tesla_app/models/place.dart';
+import 'package:travel_app_challenge/core/context_theme.dart';
+import 'package:travel_app_challenge/feed/widgets/widgets.dart';
+import 'package:travel_app_challenge/models/models.dart';
 
 class PlaceCard extends StatelessWidget {
   const PlaceCard({

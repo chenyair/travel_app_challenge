@@ -1,4 +1,4 @@
-import 'package:tesla_app/models/models.dart';
+import 'package:travel_app_challenge/models/models.dart';
 
 class TravelPlace {
   TravelPlace({
