@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_app_challenge/models/models.dart';
+import 'package:travel_app_challenge/place_details/widgets/widgets.dart';
 
 class PlaceDetailsScreen extends StatelessWidget {
   const PlaceDetailsScreen({
@@ -16,14 +17,22 @@ class PlaceDetailsScreen extends StatelessWidget {
         physics: const BouncingScrollPhysics(),
         slivers: [
           SliverPersistentHeader(
+            pinned: true,
             delegate: BuilderPersistentDelegate(
               maxExtent: MediaQuery.of(context).size.height,
-              minExtent: 200,
+              minExtent: 240,
               builder: (percent) {
-                return Container();
+                return AnimatedDetailHeader(
+                  place: place,
+                  topPercent: ((1 - percent) / .7).clamp(0.0, 1.0),
+                  bottomPercent: (percent / .3).clamp(0.0, 1.0),
+                );
               },
             ),
-          )
+          ),
+          const SliverToBoxAdapter(child: Placeholder()),
+          const SliverToBoxAdapter(child: Placeholder()),
+          const SliverToBoxAdapter(child: Placeholder()),
         ],
       ),
     );
